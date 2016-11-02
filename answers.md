@@ -18,6 +18,10 @@ I passed trainer_path(@pokemon.trainer) to redirect_to. This path needed an argu
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 
+Errors is an inbuilt function in ActiveRecord and since our models inherit from that class, we also get the error messages associated with it. This allows us to show the error message into our form when we redirect to a new page.
+
 # Give us feedback on the project and decal below!
+
+This decal is very interesting to learn and magical, but I wish I had more time to spend on it since my schedule is so busy.
 
 # Extra credit: Link your Heroku deployed app
